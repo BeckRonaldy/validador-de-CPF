@@ -1,7 +1,7 @@
-##Validador de CPF em C
+# Validador de CPF em C
 Um validador de CPF funcional feito na linguagem C
 
-##Como Validar um CPF?
+## Como Validar um CPF?
 
 A validação de CPF é baseada na verificação dos nove primeiros dígitos do CPF, e comparada com os dois últimos dígitos.
 
