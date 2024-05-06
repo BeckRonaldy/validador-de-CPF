@@ -1,5 +1,5 @@
-# Validador de CPF em C
-Um validador de CPF funcional feito na linguagem C
+# Validador de CPF em Python
+Um validador de CPF funcional feito na linguagem Python
 
 ## Como Validar um CPF?
 
