@@ -1,5 +1,6 @@
 import random
 
+#Função para gerar CPFs
 def gerador():
     # Gera os nove primeiros dígitos do CPF
     numeros_cpf = [random.randint(0, 9) for _ in range(9)]

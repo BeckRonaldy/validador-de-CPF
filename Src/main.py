@@ -1,6 +1,7 @@
 from validadorCPF import validador
 from geradorCPF import gerador
 
+# Menu inicial
 if __name__ == '__main__':
     while(True):
         opc = int(input("Informe uma opção:\n1 - Validador de CPF\n2 - Gerador de CPF\n3 - Sair\n> "))

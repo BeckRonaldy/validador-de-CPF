@@ -1,6 +1,8 @@
+# Função para válidar se é um dígito
 def is_digit(c):
     return c.isdigit()
 
+# Função para calcular o dígito
 def calcula_digito(cpf, inicio, fim):
     soma = 0
     for i in range(inicio, fim + 1):
@@ -11,6 +13,7 @@ def calcula_digito(cpf, inicio, fim):
     else:
         return 11 - resto
 
+# Valida se o CPF foi informado corretamente
 def validador(cpf):
     # Verifica se o CPF tem o formato correto
     for i in range(len(cpf)):
